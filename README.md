@@ -7,5 +7,12 @@ This tiny module supplies two functions that do just this.
 
 The functions are added to the "underscore.js" package.
 
-For examples, see test.js.
+== EXAMPLE ==
 
+var _ = require("underscore");
+_.mixin(require("argminmax"));  
+
+var array = ["b","aa","ddd","cccc"];
+
+console.log(_.argmin(array)) // 1 
+console.log(_.argmin(array, function(x){return x.length})) // 0

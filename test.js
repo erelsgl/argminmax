@@ -1,6 +1,6 @@
 var should = require('should');
 var _ = require("underscore");
-require("./index");
+_.mixin(require("./index"));  
 
 var array = ["b","aa","ddd","cccc"];
 
