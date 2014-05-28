@@ -1,7 +1,7 @@
 {
-    "name": "argminmax.js",
+    "name": "argminmax",
     "description": "argmin and argmax functions for Node.js / underscore.js",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Erel Segal-Halevi",
     "keywords": [ "argmin", "argmax", "underscore" ],
     "licenses" : [
@@ -19,7 +19,7 @@
     "engines": { "node": ">= 0.6.0" },
     "repository": {
         "type": "git",
-        "url": "https://github.com/erelsgl/argminmax.js.git"
+        "url": "https://github.com/erelsgl/argminmax.git"
     },
     "scripts": {
         "test": "mocha test.js"
